@@ -15,6 +15,7 @@
 		C80216B721F2A22C007C69F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C80216B621F2A22C007C69F4 /* main.m */; };
 		C80216C121F2A22C007C69F4 /* FingerPaintTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C80216C021F2A22C007C69F4 /* FingerPaintTests.m */; };
 		C80216CC21F2A22C007C69F4 /* FingerPaintUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C80216CB21F2A22C007C69F4 /* FingerPaintUITests.m */; };
+		C80216DB21F2A267007C69F4 /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = C80216DA21F2A267007C69F4 /* DrawView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		C80216C721F2A22C007C69F4 /* FingerPaintUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FingerPaintUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C80216CB21F2A22C007C69F4 /* FingerPaintUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FingerPaintUITests.m; sourceTree = "<group>"; };
 		C80216CD21F2A22C007C69F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C80216D921F2A267007C69F4 /* DrawView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawView.h; sourceTree = "<group>"; };
+		C80216DA21F2A267007C69F4 /* DrawView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				C80216A821F2A22B007C69F4 /* AppDelegate.m */,
 				C80216AA21F2A22B007C69F4 /* ViewController.h */,
 				C80216AB21F2A22B007C69F4 /* ViewController.m */,
+				C80216D921F2A267007C69F4 /* DrawView.h */,
+				C80216DA21F2A267007C69F4 /* DrawView.m */,
 				C80216AD21F2A22B007C69F4 /* Main.storyboard */,
 				C80216B021F2A22C007C69F4 /* Assets.xcassets */,
 				C80216B221F2A22C007C69F4 /* LaunchScreen.storyboard */,
@@ -264,6 +269,7 @@
 			files = (
 				C80216AC21F2A22B007C69F4 /* ViewController.m in Sources */,
 				C80216B721F2A22C007C69F4 /* main.m in Sources */,
+				C80216DB21F2A267007C69F4 /* DrawView.m in Sources */,
 				C80216A921F2A22B007C69F4 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
